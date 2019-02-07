@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<script type="text/javascript" language="JavaScript">
+<!-- 
+function change() { 
+loc = document.myvid.vid_select.options[document.myvid.vid_select.selectedIndex].value;
+document.getElementById("vid").innerHTML ='<embed width="600" height="600" src="'+loc+'"></embed>';
+}
+-->
+</script>
+<body>
+<img src="file:///F|/url.png" />
+<center>
+<br /><br />
+<form name="myvid" method="post" action="web1.php">
+<select name="DeviceId" style="height:25px">
+<option value="">!.......Select The Video You Want To Play......!</option>
+<option value="dv2">Camera 1</option>
+<option value="dv5">Camera 2</option>
+<</select>
+<button type="submit">OK</button>
+<br><br><br><br>
+<div id="vid"></div>
+</form>
+</center>
+
+</body>
+</html>

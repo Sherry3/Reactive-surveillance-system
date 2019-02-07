@@ -1,0 +1,14 @@
+<?php
+
+$target_dir = "../Motion/System1/".$_REQUEST["folder"]."/";
+
+if( $_FILES['file']['name'] != "" )
+{
+   copy( $_FILES['file']['name'], $target_dir ) or 
+           die( "Could not copy file!");
+}
+else
+{
+    die("No file specified!");
+}
+?> 
